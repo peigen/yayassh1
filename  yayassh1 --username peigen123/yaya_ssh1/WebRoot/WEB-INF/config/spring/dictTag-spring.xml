@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd"
+	default-lazy-init="false">
+
+	<!-- 字典类型entity -->
+	<bean id="baseDate" class="com.sync.sninfo.basemanage.entity.BaseData" />
+	
+	<!-- 字典类型明细entity -->
+	<bean id="baseDateList" class="com.sync.sninfo.basemanage.entity.BaseDataList" />
+	
+	<bean id="baseDataDao" class="com.sync.sninfo.basemanage.dao.BaseDataDao" parent="baseDao">
+	</bean>
+
+	<!-- 配置Service -->
+	<bean id="baseDataService" class="com.sync.sninfo.basemanage.service.BaseDataService" parent="baseService" >
+		<property name="baseDataDao" ref="baseDataDao"></property>
+	</bean>
+	
+	<bean id="dictTag" class="com.sync.sninfo.commons.label.DictTag">
+		<property name="baseDataService" ref="baseDataService"></property>
+	</bean>
+
+</beans>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/businessList.do" location="50,750" dimension="358,84" />
+  <StrutsActivity path="/toAddBusiness.do" location="950,950" dimension="358,84" />
+  <StrutsActivity path="/addBusiness.do" location="650,750" dimension="358,84" />
+  <StrutsActivity path="/showBusiness.do" location="350,950" dimension="358,84" />
+  <StrutsActivity path="/toUpdateBusiness.do" location="50,1150" dimension="358,84" />
+  <StrutsActivity path="/updateBusiness.do" location="650,550" dimension="358,84" />
+  <StrutsActivity path="/deleteBusiness.do" location="650,350" dimension="358,84" />
+  <StrutsActivity path="failure;6" location="403,277" dimension="106,72" />
+  <StrutsActivity path="/admin/business/business_list.jsp" location="332,184" dimension="238,48" />
+  <StrutsActivity path="/admin/business/business_add.jsp" location="0,184" dimension="232,48" />
+  <StrutsActivity path="/admin/business/business_detail.jsp" location="650,250" dimension="250,48" />
+  <StrutsActivity path="/admin/business/business_edit.jsp" location="50,650" dimension="238,48" />
+  <StrutsActivity path="/error.jsp" location="406,449" dimension="100,48" />
+  <StrutsActivity path="/admin/business/business_check.jsp" location="57,461" dimension="244,48" />
+  <StrutsActivity path="/admin/user/listUser.jsp" location="50,950" dimension="184,48" />
+  <StrutsActivity path="/admin/business/business_addt.jsp" location="350,650" dimension="238,48" />
+  <StrutsActivity path="/selectBusinessList.do" location="650,1150" dimension="358,84" />
+  <StrutsActivity path="/admin/basemanage/articleType/articleType_list.jsp" location="50,1350" dimension="340,48" />
+  <StrutsTransition id="/toUpdateBusiness.do,success,/admin/business/business_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1192" />
+      <AbsolutePoint location="-150,1192" />
+      <AbsolutePoint location="-150,674" />
+      <AbsolutePoint location="50,674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/selectBusinessList.do,success,/admin/basemanage/articleType/articleType_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="829,1234" />
+      <AbsolutePoint location="829,1374" />
+      <AbsolutePoint location="390,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toAddBusiness.do,success,/admin/business/business_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1113,950" />
+      <AbsolutePoint location="1113,109" />
+      <AbsolutePoint location="116,109" />
+      <AbsolutePoint location="116,184" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="failure;6,null,/error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="456,349" />
+      <AbsolutePoint location="456,449" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showBusiness.do,success,/admin/business/business_detail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="524,950" />
+      <AbsolutePoint location="524,879" />
+      <AbsolutePoint location="1143,879" />
+      <AbsolutePoint location="1143,274" />
+      <AbsolutePoint location="900,274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addBusiness.do,success,/businessList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,792" />
+      <AbsolutePoint location="408,792" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addBusiness.do,back,/admin/business/business_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,762" />
+      <AbsolutePoint location="615,762" />
+      <AbsolutePoint location="615,265" />
+      <AbsolutePoint location="116,265" />
+      <AbsolutePoint location="116,232" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/selectBusinessList.do,success,/admin/business/business_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="829,1192" />
+      <AbsolutePoint location="451,208" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateBusiness.do,success,/businessList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="829,592" />
+      <AbsolutePoint location="229,792" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/businessList.do,success,/admin/business/business_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="316,750" />
+      <AbsolutePoint location="316,524" />
+      <AbsolutePoint location="388,524" />
+      <AbsolutePoint location="388,232" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteBusiness.do,success,/businessList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,392" />
+      <AbsolutePoint location="-75,392" />
+      <AbsolutePoint location="-75,792" />
+      <AbsolutePoint location="50,792" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

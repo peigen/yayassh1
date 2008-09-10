@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd"
+	default-lazy-init="true">
+
+	<!-- 配置entity -->
+	<bean id="tUser" class="org.peigen.ssh.test.usertest.entity.TUser" />
+	
+	<!-- 配置自己的DAO -->
+	<bean id="userDao" class="org.peigen.ssh.test.usertest.dao.UserDao" parent="baseDao">
+		<property name="tUser" ref="tUser"></property>
+	</bean>
+
+	<!-- 配置Service -->
+	<bean id="userService" class="org.peigen.ssh.test.usertest.service.UserService" parent="baseService" >
+	</bean>
+
+	<!-- 配置struts请求 -->
+	<bean name="/listUser" class="org.peigen.ssh.test.usertest.struts.action.UserAction">
+		<property name="userService">
+			<ref bean="userService" />
+		</property>
+	</bean>
+	
+	<bean name="/page-list" class="org.peigen.ssh.test.usertest.struts.action.UserAction">
+		<property name="userService">
+			<ref bean="userService" />
+		</property>
+	</bean>
+	
+	<bean name="/toAddUser" class="org.peigen.ssh.test.usertest.struts.action.UserAction">
+		<property name="userService">
+			<ref bean="userService" />
+		</property>
+	</bean>
+	<bean name="/addUser" class="org.peigen.ssh.test.usertest.struts.action.UserAction">
+		<property name="userService">
+			<ref bean="userService" />
+		</property>
+	</bean>
+
+	<bean name="/toUpdateUser" class="org.peigen.ssh.test.usertest.struts.action.UserAction">
+		<property name="userService">
+			<ref bean="userService" />
+		</property>
+	</bean>
+
+	<bean name="/updateUser" class="org.peigen.ssh.test.usertest.struts.action.UserAction">
+		<property name="userService">
+			<ref bean="userService" />
+		</property>
+	</bean>
+
+	<bean name="/deleteUser" class="org.peigen.ssh.test.usertest.struts.action.UserAction">
+		<property name="userService">
+			<ref bean="userService" />
+		</property>
+	</bean>
+
+</beans>

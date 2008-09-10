@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="failure;6" location="0,738" dimension="106,72" />
+  <StrutsActivity path="/admin/business/business_list.jsp" location="976,368" dimension="238,48" />
+  <StrutsActivity path="/admin/business/business_add.jsp" location="234,202" dimension="232,48" />
+  <StrutsActivity path="/admin/business/business_detail.jsp" location="54,645" dimension="250,48" />
+  <StrutsActivity path="/admin/business/business_edit.jsp" location="463,645" dimension="238,48" />
+  <StrutsActivity path="/error.jsp" location="3,910" dimension="100,48" />
+  <StrutsActivity path="/admin/achievement/achievement_list.jsp" location="50,1150" dimension="274,48" />
+  <StrutsActivity path="/admin/achievement/achievement_add.jsp" location="650,1150" dimension="268,48" />
+  <StrutsActivity path="/admin/achievement/achievement_detail.jsp" location="50,1250" dimension="286,48" />
+  <StrutsActivity path="/admin/achievement/achievement_edit.jsp" location="650,1250" dimension="274,48" />
+  <StrutsActivity path="/binaryDataList.do" location="50,350" dimension="358,84" />
+  <StrutsActivity path="/toAddBinaryData.do" location="950,550" dimension="358,84" />
+  <StrutsActivity path="/addBinaryData.do" location="350,750" dimension="358,84" />
+  <StrutsActivity path="/showBinaryData.do" location="950,750" dimension="358,84" />
+  <StrutsActivity path="/toUpdateBinaryData.do" location="350,950" dimension="358,84" />
+  <StrutsActivity path="/updateBinaryData.do" location="950,950" dimension="358,84" />
+  <StrutsActivity path="/deleteBinaryData.do" location="50,1350" dimension="358,84" />
+  <StrutsActivity path="/admin/binaryData/binaryData_list.jsp" location="650,1350" dimension="262,48" />
+  <StrutsActivity path="/admin/binaryData/binaryData_add.jsp" location="650,1450" dimension="256,48" />
+  <StrutsActivity path="/admin/binaryData/binaryData_detail.jsp" location="50,1550" dimension="274,48" />
+  <StrutsActivity path="/admin/binaryData/binaryData_edit.jsp" location="650,1550" dimension="262,48" />
+  <StrutsActivity path="/admin/binarydata/binaryData_list.jsp" location="650,450" dimension="262,48" />
+  <StrutsActivity path="/admin/binarydata/binaryData_add.jsp" location="1250,1150" dimension="256,48" />
+  <StrutsActivity path="/admin/binarydata/binaryData_detail.jsp" location="1250,1250" dimension="274,48" />
+  <StrutsActivity path="/admin/binarydata/binaryData_edit.jsp" location="1250,1350" dimension="262,48" />
+  <StrutsActivity path="/admin/binarydata/binarydata_list.jsp" />
+  <StrutsActivity path="/admin/binarydata/binarydata_add.jsp" />
+  <StrutsActivity path="/admin/binarydata/binarydata_detail.jsp" />
+  <StrutsActivity path="/admin/binarydata/binarydata_edit.jsp" />
+  <StrutsTransition id="/toAddAchievement.do,success,/admin/achievement/achievement_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="408,392" />
+      <AbsolutePoint location="754,392" />
+      <AbsolutePoint location="754,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showBinaryData.do,success,/admin/binarydata/binarydata_detail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1129,792" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addBusiness.do,back,/admin/business/business_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="547,84" />
+      <AbsolutePoint location="547,134" />
+      <AbsolutePoint location="408,134" />
+      <AbsolutePoint location="408,202" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateBinaryData.do,success,/binaryDataList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,992" />
+      <AbsolutePoint location="939,992" />
+      <AbsolutePoint location="939,353" />
+      <AbsolutePoint location="408,353" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addBinaryData.do,success,/binaryDataList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="393,750" />
+      <AbsolutePoint location="393,434" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteBusiness.do,success,/businessList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1553,84" />
+      <AbsolutePoint location="1553,134" />
+      <AbsolutePoint location="1214,134" />
+      <AbsolutePoint location="1214,184" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toAddBusiness.do,success,/admin/business/business_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="179,84" />
+      <AbsolutePoint location="179,134" />
+      <AbsolutePoint location="292,134" />
+      <AbsolutePoint location="292,202" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toUpdateBinaryData.do,success,/admin/binarydata/binaryData_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="529,1034" />
+      <AbsolutePoint location="529,1313" />
+      <AbsolutePoint location="1381,1313" />
+      <AbsolutePoint location="1381,1350" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteBinaryData.do,success,/binaryDataList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1392" />
+      <AbsolutePoint location="-45,1392" />
+      <AbsolutePoint location="-45,392" />
+      <AbsolutePoint location="50,392" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showAchievement.do,success,/admin/achievement/achievement_detail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,825" />
+      <AbsolutePoint location="-75,825" />
+      <AbsolutePoint location="-75,1274" />
+      <AbsolutePoint location="50,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toAddBinaryData.do,success,/admin/binarydata/binarydata_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1129,592" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toAddBinaryData.do,success,/admin/binarydata/binaryData_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1308,592" />
+      <AbsolutePoint location="1408,592" />
+      <AbsolutePoint location="1408,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteAchievement.do,success,/achievementList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,992" />
+      <AbsolutePoint location="889,992" />
+      <AbsolutePoint location="889,234" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showBinaryData.do,success,/admin/binarydata/binaryData_detail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1308,792" />
+      <AbsolutePoint location="1521,792" />
+      <AbsolutePoint location="1521,1250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addAchievement.do,success,/achievementList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="961,550" />
+      <AbsolutePoint location="961,234" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateBusiness.do,success,/businessList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1095,84" />
+      <AbsolutePoint location="1095,184" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/binaryDataList.do,success,/admin/binarydata/binarydata_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="229,392" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateAchievement.do,success,/achievementList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="708,992" />
+      <AbsolutePoint location="829,992" />
+      <AbsolutePoint location="829,234" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toUpdateBinaryData.do,success,/admin/binarydata/binarydata_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="529,992" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toUpdateBusiness.do,success,/admin/business/business_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="582,545" />
+      <AbsolutePoint location="582,645" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addAchievement.do,back,/admin/achievement/achievement_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,592" />
+      <AbsolutePoint location="784,592" />
+      <AbsolutePoint location="784,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showBinaryData.do,success,/admin/binaryData/binaryData_detail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1308,792" />
+      <AbsolutePoint location="1413,792" />
+      <AbsolutePoint location="1413,1673" />
+      <AbsolutePoint location="187,1673" />
+      <AbsolutePoint location="187,1598" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toUpdateBinaryData.do,success,/admin/binaryData/binaryData_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="529,1034" />
+      <AbsolutePoint location="529,1574" />
+      <AbsolutePoint location="650,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showBusiness.do,success,/admin/business/business_detail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="179,545" />
+      <AbsolutePoint location="179,645" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/binaryDataList.do,success,/admin/binaryData/binaryData_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="408,431" />
+      <AbsolutePoint location="1383,431" />
+      <AbsolutePoint location="1383,1374" />
+      <AbsolutePoint location="912,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addBinaryData.do,back,/admin/binaryData/binaryData_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,825" />
+      <AbsolutePoint location="-75,825" />
+      <AbsolutePoint location="-75,1474" />
+      <AbsolutePoint location="650,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/businessList.do,success,/admin/business/business_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1095,268" />
+      <AbsolutePoint location="1095,368" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/binaryDataList.do,success,/admin/binarydata/binaryData_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="408,392" />
+      <AbsolutePoint location="781,392" />
+      <AbsolutePoint location="781,450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/achievementList.do,success,/admin/achievement/achievement_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="859,234" />
+      <AbsolutePoint location="859,1079" />
+      <AbsolutePoint location="187,1079" />
+      <AbsolutePoint location="187,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toUpdateAchievement.do,success,/admin/achievement/achievement_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1308,792" />
+      <AbsolutePoint location="1383,792" />
+      <AbsolutePoint location="1383,1274" />
+      <AbsolutePoint location="924,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="failure;6,null,/error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="53,810" />
+      <AbsolutePoint location="53,910" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addBinaryData.do,back,/admin/binarydata/binarydata_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="529,792" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addBusiness.do,success,/businessList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="726,84" />
+      <AbsolutePoint location="726,134" />
+      <AbsolutePoint location="975,134" />
+      <AbsolutePoint location="975,184" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addBinaryData.do,back,/admin/binarydata/binaryData_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="529,834" />
+      <AbsolutePoint location="529,879" />
+      <AbsolutePoint location="1378,879" />
+      <AbsolutePoint location="1378,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toAddBinaryData.do,success,/admin/binaryData/binaryData_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1308,592" />
+      <AbsolutePoint location="1323,592" />
+      <AbsolutePoint location="1323,1474" />
+      <AbsolutePoint location="906,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

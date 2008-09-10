@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/baseManage_listTCss.do" location="350,250" dimension="547,124" />
+  <StrutsActivity path="/baseManage_showTCss.do" location="950,250" dimension="547,124" />
+  <StrutsActivity path="/baseManage_toAddTCss.do" location="50,450" dimension="547,124" />
+  <StrutsActivity path="/baseManage_addTCss.do" location="50,650" dimension="547,124" />
+  <StrutsActivity path="/baseManage_toUpdateTCss.do" location="50,850" dimension="547,124" />
+  <StrutsActivity path="/baseManage_updateTCss.do" location="50,1250" dimension="547,124" />
+  <StrutsActivity path="/baseManage_delTCss.do" location="650,1250" dimension="547,124" />
+  <StrutsActivity path="/baseManage_listDicExpertSort.do" location="2150,50" dimension="416,88" />
+  <StrutsActivity path="/baseManage_showDicExpertSort.do" location="2750,50" dimension="416,88" />
+  <StrutsActivity path="/baseManage_toAddDicExpertSort.do" location="2750,250" dimension="416,88" />
+  <StrutsActivity path="/baseManage_addDicExpertSort.do" location="1850,450" dimension="416,88" />
+  <StrutsActivity path="/baseManage_toUpdateDicExpertSort.do" location="3050,450" dimension="416,88" />
+  <StrutsActivity path="/baseManage_updateDicExpertSort.do" location="2450,650" dimension="416,88" />
+  <StrutsActivity path="/baseManage_delDicExpertSort.do" location="3050,650" dimension="416,88" />
+  <StrutsActivity path="/baseManage_listDicProfessionCategory.do" location="3050,850" dimension="416,88" />
+  <StrutsActivity path="/baseManage_showDicProfessionCategory.do" location="3050,1050" dimension="416,88" />
+  <StrutsActivity path="/baseManage_toAddDicProfessionCategory.do" location="3050,1250" dimension="416,88" />
+  <StrutsActivity path="/baseManage_addDicProfessionCategory.do" location="2150,1850" dimension="416,88" />
+  <StrutsActivity path="/baseManage_toUpdateDicProfessionCategory.do" location="2450,2050" dimension="416,88" />
+  <StrutsActivity path="/baseManage_updateDicProfessionCategory.do" location="3050,2050" dimension="416,88" />
+  <StrutsActivity path="/baseManage_delDicProfessionCategory.do" location="3050,2250" dimension="416,88" />
+  <StrutsActivity path="/baseManage_listDicTechResourceSort.do" location="3050,2450" dimension="416,88" />
+  <StrutsActivity path="/baseManage_showDicTechResourceSort.do" location="3050,2650" dimension="416,88" />
+  <StrutsActivity path="/baseManage_toAddDicTechResourceSort.do" location="3050,3050" dimension="416,88" />
+  <StrutsActivity path="/baseManage_addDicTechResourceSort.do" location="3050,3250" dimension="416,88" />
+  <StrutsActivity path="/baseManage_toUpdateDicTechResourceSort.do" location="650,3450" dimension="416,88" />
+  <StrutsActivity path="/baseManage_updateDicTechResourceSort.do" location="3050,3450" dimension="416,88" />
+  <StrutsActivity path="/baseManage_delDicTechResourceSort.do" location="3050,3650" dimension="416,88" />
+  <StrutsActivity path="/baseManage_listBaseData.do" location="1550,150" dimension="547,124" />
+  <StrutsActivity path="/baseManage_showBaseData.do" location="1250,1250" dimension="547,124" />
+  <StrutsActivity path="/baseManage_toAddBaseData.do" location="1550,1450" dimension="547,124" />
+  <StrutsActivity path="/baseManage_addBaseData.do" location="1550,1650" dimension="547,124" />
+  <StrutsActivity path="/baseManage_toUpdateBaseData.do" location="1550,1850" dimension="547,124" />
+  <StrutsActivity path="/baseManage_updateBaseData.do" location="1250,2050" dimension="547,124" />
+  <StrutsActivity path="/baseManage_delBaseData.do" location="50,2150" dimension="547,124" />
+  <StrutsActivity path="/baseManage_listBaseDataList.do" location="1850,650" dimension="547,124" />
+  <StrutsActivity path="/baseManage_showBaseDataList.do" location="1850,850" dimension="547,124" />
+  <StrutsActivity path="/baseManage_toAddBaseDataList.do" location="1850,1050" dimension="547,124" />
+  <StrutsActivity path="/baseManage_addBaseDataList.do" location="1850,1250" dimension="547,124" />
+  <StrutsActivity path="/baseManage_toUpdateBaseDataList.do" location="1850,2050" dimension="547,124" />
+  <StrutsActivity path="/baseManage_updateBaseDataList.do" location="1850,2250" dimension="547,124" />
+  <StrutsActivity path="/baseManage_delBaseDataList.do" location="1850,2450" dimension="547,124" />
+  <StrutsActivity path="/articleTypeList.do" location="2450,450" dimension="358,84" />
+  <StrutsActivity path="/toAddArticleType.do" location="2450,850" dimension="358,84" />
+  <StrutsActivity path="/addArticleType.do" location="2450,1050" dimension="358,84" />
+  <StrutsActivity path="/toUpdateArticleType.do" location="2450,1250" dimension="358,84" />
+  <StrutsActivity path="/updateArticleType.do" location="2150,1450" dimension="358,84" />
+  <StrutsActivity path="/deleteArticleType.do" location="2150,1650" dimension="358,84" />
+  <StrutsActivity path="/belongingsList.do" location="2450,2250" dimension="358,84" />
+  <StrutsActivity path="/toAddBelongings.do" location="2450,2450" dimension="358,84" />
+  <StrutsActivity path="/addBelongings.do" location="2450,2650" dimension="358,84" />
+  <StrutsActivity path="/toUpdateBelongings.do" location="2150,2850" dimension="358,84" />
+  <StrutsActivity path="/updateBelongings.do" location="50,2950" dimension="358,84" />
+  <StrutsActivity path="/deleteBelongings.do" location="650,3050" dimension="358,84" />
+  <StrutsActivity path="/departmentList.do" location="1850,3150" dimension="358,84" />
+  <StrutsActivity path="/toAddDepartment.do" location="50,3250" dimension="358,84" />
+  <StrutsActivity path="/addDepartment.do" location="650,3250" dimension="358,84" />
+  <StrutsActivity path="/toUpdateDepartment.do" location="2450,3450" dimension="358,84" />
+  <StrutsActivity path="/updateDepartment.do" location="650,3750" dimension="358,84" />
+  <StrutsActivity path="/deleteDepartment.do" location="1250,3750" dimension="358,84" />
+  <StrutsActivity path="/baseManage_listOperation.do" location="3650,450" dimension="358,84" />
+  <StrutsActivity path="/baseManage_toAddOperation.do" location="3650,650" dimension="358,84" />
+  <StrutsActivity path="/baseManage_addOperation.do" location="3650,850" dimension="358,84" />
+  <StrutsActivity path="/baseManage_toUpdateOperation.do" location="3650,1050" dimension="358,84" />
+  <StrutsActivity path="/baseManage_updateOperation.do" location="3650,1250" dimension="358,84" />
+  <StrutsActivity path="/baseManage_delOperation.do" location="3350,1450" dimension="358,84" />
+  <StrutsActivity path="/baseManage_listPhase.do" location="3350,1650" dimension="358,84" />
+  <StrutsActivity path="/baseManage_toAddPhase.do" location="3350,1850" dimension="358,84" />
+  <StrutsActivity path="/baseManage_addPhase.do" location="3650,2050" dimension="358,84" />
+  <StrutsActivity path="/baseManage_toUpdatePhase.do" location="3650,2250" dimension="358,84" />
+  <StrutsActivity path="/baseManage_updatePhase.do" location="3650,2450" dimension="358,84" />
+  <StrutsActivity path="/baseManage_delPhase.do" location="3650,2650" dimension="358,84" />
+  <StrutsActivity path="/baseManage_listRegion.do" location="3350,2850" dimension="358,84" />
+  <StrutsActivity path="/baseManage_toAddRegion.do" location="3650,3050" dimension="358,84" />
+  <StrutsActivity path="/baseManage_addRegion.do" location="3650,3250" dimension="358,84" />
+  <StrutsActivity path="/baseManage_toUpdateRegion.do" location="3650,3450" dimension="358,84" />
+  <StrutsActivity path="/baseManage_updateRegion.do" location="3650,3650" dimension="358,84" />
+  <StrutsActivity path="/baseManage_delRegion.do" location="50,3750" dimension="358,84" />
+  <StrutsActivity path="failure;6" location="0,1532" dimension="140,102" />
+  <StrutsActivity path="/admin/basemanage/TCss/listTCss.jsp" location="1250,450" dimension="375,58" />
+  <StrutsActivity path="/admin/basemanage/TCss/showTCss.jsp" location="1250,650" dimension="394,58" />
+  <StrutsActivity path="/admin/basemanage/TCss/addTCss.jsp" location="1250,850" dimension="382,58" />
+  <StrutsActivity path="/admin/basemanage/TCss/updateTCss.jsp" location="1250,1050" dimension="411,58" />
+  <StrutsActivity path="/admin/basemanage/DicExpertSort/listDicExpertSort.jsp" location="1250,4050" dimension="416,49" />
+  <StrutsActivity path="/admin/basemanage/DicExpertSort/showDicExpertSort.jsp" location="1850,4050" dimension="416,49" />
+  <StrutsActivity path="/admin/basemanage/DicExpertSort/addDicExpertSort.jsp" location="2450,4050" dimension="409,49" />
+  <StrutsActivity path="/admin/basemanage/DicExpertSort/updateDicExpertSort.jsp" location="3050,4050" dimension="430,49" />
+  <StrutsActivity path="/admin/basemanage/DicProfessionCategory/listDicProfessionCategory.jsp" location="50,4150" dimension="528,49" />
+  <StrutsActivity path="/admin/basemanage/DicProfessionCategory/showDicProfessionCategory.jsp" location="650,4150" dimension="528,49" />
+  <StrutsActivity path="/admin/basemanage/DicProfessionCategory/addDicProfessionCategory.jsp" location="1250,4150" dimension="521,49" />
+  <StrutsActivity path="/admin/basemanage/DicProfessionCategory/updateDicProfessionCategory.jsp" location="1850,4150" dimension="542,49" />
+  <StrutsActivity path="/admin/basemanage/DicTechResourceSort/listDicTechResourceSort.jsp" location="1250,4250" dimension="500,49" />
+  <StrutsActivity path="/admin/basemanage/DicTechResourceSort/showDicTechResourceSort.jsp" location="1850,4250" dimension="500,49" />
+  <StrutsActivity path="/admin/basemanage/DicTechResourceSort/addDicTechResourceSort.jsp" location="2450,4250" dimension="493,49" />
+  <StrutsActivity path="/admin/basemanage/DicTechResourceSort/updateDicTechResourceSort.jsp" location="3050,4250" dimension="514,49" />
+  <StrutsActivity path="/admin/basemanage/BaseData/listBaseData.jsp" location="1250,2450" dimension="465,58" />
+  <StrutsActivity path="/admin/basemanage/BaseData/showBaseData.jsp" location="50,2550" dimension="484,58" />
+  <StrutsActivity path="/admin/basemanage/BaseData/addBaseData.jsp" location="650,2650" dimension="472,58" />
+  <StrutsActivity path="/admin/basemanage/BaseData/updateBaseData.jsp" location="1250,2650" dimension="501,58" />
+  <StrutsActivity path="/admin/basemanage/BaseDataList/listBaseDataList.jsp" location="1850,2650" dimension="527,58" />
+  <StrutsActivity path="/admin/basemanage/BaseDataList/showBaseDataList.jsp" location="50,2750" dimension="546,58" />
+  <StrutsActivity path="/admin/basemanage/BaseDataList/addBaseDataList.jsp" location="650,2850" dimension="534,58" />
+  <StrutsActivity path="/admin/basemanage/BaseDataList/updateBaseDataList.jsp" location="1250,2850" dimension="563,58" />
+  <StrutsActivity path="/admin/basemanage/articleType/articleType_list.jsp" location="50,3450" dimension="340,48" />
+  <StrutsActivity path="/admin/basemanage/articleType/articleType_add.jsp" location="2750,1550" dimension="334,48" />
+  <StrutsActivity path="/admin/basemanage/articleType/articleType_edit.jsp" location="2750,1750" dimension="340,48" />
+  <StrutsActivity path="/admin/basemanage/belongings/belongings_list.jsp" location="2750,1850" dimension="328,48" />
+  <StrutsActivity path="/admin/basemanage/belongings/belongings_add.jsp" location="2750,1950" dimension="322,48" />
+  <StrutsActivity path="/admin/basemanage/belongings/belongings_edit.jsp" location="2750,2850" dimension="328,48" />
+  <StrutsActivity path="/admin/basemanage/department/department_list.jsp" location="2750,2950" dimension="328,48" />
+  <StrutsActivity path="/admin/basemanage/department/department_add.jsp" location="1250,3250" dimension="322,48" />
+  <StrutsActivity path="/admin/basemanage/department/department_edit.jsp" location="1850,3350" dimension="328,48" />
+  <StrutsActivity path="/admin/basemanage/Operation/listOperation.jsp" location="2750,3950" dimension="310,48" />
+  <StrutsActivity path="/admin/basemanage/Operation/addOperation.jsp" location="3350,3950" dimension="304,48" />
+  <StrutsActivity path="/error.jsp" location="8,1734" dimension="123,58" />
+  <StrutsActivity path="/admin/basemanage/Operation/updateOperation.jsp" location="50,4050" dimension="322,48" />
+  <StrutsActivity path="/admin/basemanage/Phase/listPhase.jsp" location="650,4050" dimension="262,48" />
+  <StrutsActivity path="/admin/basemanage/Phase/addPhase.jsp" location="3650,4050" dimension="256,48" />
+  <StrutsActivity path="/admin/basemanage/Phase/updatePhase.jsp" location="3650,4150" dimension="274,48" />
+  <StrutsActivity path="/admin/basemanage/Region/listRegion.jsp" location="3650,4250" dimension="274,48" />
+  <StrutsActivity path="/admin/basemanage/Region/addRegion.jsp" location="50,4350" dimension="268,48" />
+  <StrutsActivity path="/admin/basemanage/Region/updateRegion.jsp" location="650,4350" dimension="286,48" />
+  <StrutsActivity path="/admin/basemanage/DicTechResourceSort1/listDicTechResourceSort1.jsp" location="2450,4150" dimension="514,49" />
+  <StrutsActivity path="/admin/basemanage/DicTechResourceSort1/showDicTechResourceSort1.jsp" location="3050,4150" dimension="514,49" />
+  <StrutsActivity path="/admin/basemanage/DicTechResourceSort1/addDicTechResourceSort1.jsp" location="50,4250" dimension="507,49" />
+  <StrutsActivity path="/admin/basemanage/DicTechResourceSort1/updateDicTechResourceSort1.jsp" location="650,4250" dimension="528,49" />
+  <StrutsActivity path="/admin/basemanage/articleType/articleType_detail.jsp" location="2750,1650" dimension="352,48" />
+  <StrutsActivity path="/admin/basemanage/belongings/belongings_detail.jsp" location="650,2150" dimension="340,48" />
+  <StrutsActivity path="/admin/basemanage/department/department_detail.jsp" location="1250,3350" dimension="340,48" />
+  <StrutsActivity path="/admin/articleType/articleType_list.jsp" location="650,3650" dimension="274,48" />
+  <StrutsActivity path="/admin/articleType/articleType_add.jsp" location="1250,3650" dimension="268,48" />
+  <StrutsActivity path="/admin/articleType/articleType_detail.jsp" location="1850,3650" dimension="286,48" />
+  <StrutsActivity path="/admin/articleType/articleType_edit.jsp" location="2450,3650" dimension="274,48" />
+  <StrutsActivity path="/admin/belongings/belongings_list.jsp" location="2450,3050" dimension="262,48" />
+  <StrutsActivity path="/admin/belongings/belongings_add.jsp" location="2450,3150" dimension="256,48" />
+  <StrutsActivity path="/admin/belongings/belongings_detail.jsp" location="2450,3250" dimension="274,48" />
+  <StrutsActivity path="/admin/belongings/belongings_edit.jsp" location="2450,3350" dimension="262,48" />
+  <StrutsActivity path="/admin/department/department_list.jsp" location="1850,3550" dimension="262,48" />
+  <StrutsActivity path="/admin/department/department_add.jsp" location="1250,3050" dimension="256,48" />
+  <StrutsActivity path="/admin/department/department_detail.jsp" location="1250,3150" dimension="274,48" />
+  <StrutsActivity path="/admin/department/department_edit.jsp" location="50,3650" dimension="262,48" />
+  <StrutsActivity path="/admin/article/article_list.jsp" location="1250,3450" dimension="226,48" />
+  <StrutsActivity path="/admin/article/article_add.jsp" location="1550,3450" dimension="220,48" />
+  <StrutsActivity path="/admin/article/article_detail.jsp" location="1250,3550" dimension="238,48" />
+  <StrutsActivity path="/admin/article/article_edit.jsp" location="1550,3550" dimension="226,48" />
+  <StrutsActivity path="/admin/basemanage/BaseDate/listBaseDate.jsp" location="650,2250" dimension="465,58" />
+  <StrutsActivity path="/admin/basemanage/BaseDate/showBaseDate.jsp" location="1250,2250" dimension="484,58" />
+  <StrutsActivity path="/admin/basemanage/BaseDate/addBaseDate.jsp" location="50,2350" dimension="472,58" />
+  <StrutsActivity path="/admin/basemanage/BaseDate/updateBaseDate.jsp" location="650,2450" dimension="501,58" />
+  <StrutsActivity path="/admin/index.jsp" location="33,1102" dimension="191,58" />
+  <StrutsActivity path="/admin/main.jsp" location="324,1102" dimension="187,58" />
+  <StrutsActivity path="/admin/user/showUser.jsp" location="730,1102" dimension="270,58" />
+  <StrutsActivity path="/admin/user/auditUser.jsp" location="648,775" dimension="270,58" />
+  <StrutsActivity path="/admin/user/listUser.jsp" location="795,448" dimension="251,58" />
+  <StrutsActivity path="/admin/user/addUser.jsp" location="144,1429" dimension="258,58" />
+  <StrutsActivity path="/admin/user/updateUser.jsp" location="722,1429" dimension="287,58" />
+  <StrutsActivity path="/admin/user/listTCss.jsp" location="350,1550" dimension="253,58" />
+  <StrutsActivity path="/admin/user/showTCss.jsp" location="950,1550" dimension="272,58" />
+  <StrutsActivity path="/admin/user/addTCss.jsp" location="350,1750" dimension="260,58" />
+  <StrutsActivity path="/admin/user/updateTCss.jsp" location="950,1750" dimension="289,58" />
+  <StrutsActivity path="/admin/TCss/listTCss.jsp" location="650,650" dimension="255,58" />
+  <StrutsActivity path="/admin/TCss/showTCss.jsp" location="650,950" dimension="274,58" />
+  <StrutsActivity path="/admin/TCss/addTCss.jsp" location="50,1950" dimension="262,58" />
+  <StrutsActivity path="/admin/TCss/updateTCss.jsp" location="650,1950" dimension="291,58" />
+  <StrutsActivity path="/admin/business/business_list.jsp" location="1850,3050" dimension="238,48" />
+  <StrutsActivity path="/admin/business/business_add.jsp" location="2150,3050" dimension="232,48" />
+  <StrutsActivity path="/admin/business/business_detail.jsp" location="50,3150" dimension="250,48" />
+  <StrutsActivity path="/admin/business/business_edit.jsp" location="350,3150" dimension="238,48" />
+  <StrutsActivity path="/admin/basemanage/basemanage/articleType/articleType_list.jsp" location="2750,1450" dimension="406,48" />
+  <StrutsActivity path="/selectArticleTypeList.do" location="1850,3750" dimension="358,84" />
+  <StrutsActivity path="/selectBelongingsList.do" location="2450,3750" dimension="358,84" />
+  <StrutsActivity path="/selectDepartmentList.do" />
+  <StrutsTransition id="/baseManage_listOperation.do,success,/admin/basemanage/Operation/listOperation.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/belongingsList.do,success,/admin/basemanage/belongings/belongings_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="2914,1874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toUpdateDepartment.do,success,/admin/basemanage/department/department_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="2014,3374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toAddPhase.do,success,/admin/basemanage/Phase/addPhase.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_addRegion.do,success,/baseManage_listRegion.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_addPhase.do,failure,/error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3829,2050" />
+      <AbsolutePoint location="3829,1353" />
+      <AbsolutePoint location="2525,1353" />
+      <AbsolutePoint location="2525,1789" />
+      <AbsolutePoint location="1415,1789" />
+      <AbsolutePoint location="1415,1712" />
+      <AbsolutePoint location="70,1712" />
+      <AbsolutePoint location="70,1734" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_showDicProfessionCategory.do,success,/admin/basemanage/DicProfessionCategory/showDicProfessionCategory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,1094" />
+      <AbsolutePoint location="2677,1094" />
+      <AbsolutePoint location="2677,1823" />
+      <AbsolutePoint location="1199,1823" />
+      <AbsolutePoint location="1199,4174" />
+      <AbsolutePoint location="1178,4174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toUpdatePhase.do,success,/admin/basemanage/Phase/updatePhase.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateDepartment.do,success,/departmentList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_addDicProfessionCategory.do,success,/baseManage_listDicProfessionCategory.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2465,1850" />
+      <AbsolutePoint location="2465,882" />
+      <AbsolutePoint location="3050,882" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_listRegion.do,success,/admin/basemanage/Region/listRegion.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toAddArticleType.do,success,/admin/basemanage/articleType/articleType_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="2917,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_listBaseData.do,success,/admin/basemanage/BaseData/listBaseData.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1823,274" />
+      <AbsolutePoint location="1823,1419" />
+      <AbsolutePoint location="1385,1419" />
+      <AbsolutePoint location="1385,1895" />
+      <AbsolutePoint location="1166,1895" />
+      <AbsolutePoint location="1166,2479" />
+      <AbsolutePoint location="1250,2479" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_updateOperation.do,success,/baseManage_listOperation.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toAddTCss.do,success,/admin/basemanage/TCss/addTCss.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="597,523" />
+      <AbsolutePoint location="1676,523" />
+      <AbsolutePoint location="1676,879" />
+      <AbsolutePoint location="1632,879" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toUpdateDicTechResourceSort.do,success,/admin/basemanage/DicTechResourceSort/updateDicTechResourceSort.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_addBaseData.do,success,/baseManage_listBaseData.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,1712" />
+      <AbsolutePoint location="1475,1712" />
+      <AbsolutePoint location="1475,1502" />
+      <AbsolutePoint location="15,1502" />
+      <AbsolutePoint location="15,212" />
+      <AbsolutePoint location="1550,212" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addDepartment.do,back,/admin/basemanage/department/department_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="1411,3274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/selectBelongingsList.do,success,/admin/basemanage/belongings/belongings_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2808,3792" />
+      <AbsolutePoint location="2931,3792" />
+      <AbsolutePoint location="2931,3025" />
+      <AbsolutePoint location="3195,3025" />
+      <AbsolutePoint location="3195,2823" />
+      <AbsolutePoint location="2911,2823" />
+      <AbsolutePoint location="2911,2047" />
+      <AbsolutePoint location="3075,2047" />
+      <AbsolutePoint location="3075,1898" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_updateDicProfessionCategory.do,success,/baseManage_listDicProfessionCategory.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3261,2050" />
+      <AbsolutePoint location="3261,2029" />
+      <AbsolutePoint location="2707,2029" />
+      <AbsolutePoint location="2707,912" />
+      <AbsolutePoint location="3050,912" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_delBaseData.do,success,/baseManage_listBaseData.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="327,2150" />
+      <AbsolutePoint location="327,1623" />
+      <AbsolutePoint location="3231,1623" />
+      <AbsolutePoint location="3231,1389" />
+      <AbsolutePoint location="3031,1389" />
+      <AbsolutePoint location="3031,419" />
+      <AbsolutePoint location="1865,419" />
+      <AbsolutePoint location="1865,274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateBelongings.do,success,/belongingsList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_updateDicExpertSort.do,success,/baseManage_listDicExpertSort.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2823,650" />
+      <AbsolutePoint location="2823,353" />
+      <AbsolutePoint location="2523,353" />
+      <AbsolutePoint location="2523,138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toAddBelongings.do,success,/admin/basemanage/belongings/belongings_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="2911,1974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addBelongings.do,back,/admin/basemanage/belongings/belongings_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="2911,1974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toUpdateBelongings.do,success,/admin/basemanage/belongings/belongings_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="2914,2874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteArticleType.do,success,/articleTypeList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_delRegion.do,success,/baseManage_listRegion.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_delDicExpertSort.do,success,/baseManage_listDicExpertSort.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3466,694" />
+      <AbsolutePoint location="3639,694" />
+      <AbsolutePoint location="3639,-25" />
+      <AbsolutePoint location="2358,-25" />
+      <AbsolutePoint location="2358,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/selectArticleTypeList.do,success,/admin/basemanage/articleType/articleType_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2153,3750" />
+      <AbsolutePoint location="2153,3613" />
+      <AbsolutePoint location="220,3613" />
+      <AbsolutePoint location="220,3498" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/articleTypeList.do,success,/admin/basemanage/articleType/articleType_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="220,3474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_updateBaseDataList.do,success,/baseManage_listBaseDataList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2397,2359" />
+      <AbsolutePoint location="4053,2359" />
+      <AbsolutePoint location="4053,753" />
+      <AbsolutePoint location="2397,753" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_addBaseDataList.do,success,/baseManage_listBaseDataList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2397,1312" />
+      <AbsolutePoint location="2412,1312" />
+      <AbsolutePoint location="2412,712" />
+      <AbsolutePoint location="2397,712" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_addDicTechResourceSort.do,success,/baseManage_listDicTechResourceSort.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_updateTCss.do,success,/baseManage_listTCss.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1312" />
+      <AbsolutePoint location="-45,1312" />
+      <AbsolutePoint location="-45,342" />
+      <AbsolutePoint location="350,342" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_addOperation.do,failure,/error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4008,892" />
+      <AbsolutePoint location="4143,892" />
+      <AbsolutePoint location="4143,2423" />
+      <AbsolutePoint location="-45,2423" />
+      <AbsolutePoint location="-45,1763" />
+      <AbsolutePoint location="8,1763" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toUpdateDicProfessionCategory.do,success,/admin/basemanage/DicProfessionCategory/updateDicProfessionCategory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2823,2138" />
+      <AbsolutePoint location="2823,2823" />
+      <AbsolutePoint location="2739,2823" />
+      <AbsolutePoint location="2739,3213" />
+      <AbsolutePoint location="2281,3213" />
+      <AbsolutePoint location="2281,4150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_updateRegion.do,success,/baseManage_listRegion.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/departmentList.do,success,/admin/basemanage/department/department_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="2914,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_showDicTechResourceSort.do,success,/admin/basemanage/DicTechResourceSort/showDicTechResourceSort.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toAddDicExpertSort.do,success,/admin/basemanage/DicExpertSort/addDicExpertSort.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2965,338" />
+      <AbsolutePoint location="2965,1435" />
+      <AbsolutePoint location="3183,1435" />
+      <AbsolutePoint location="3183,2007" />
+      <AbsolutePoint location="2959,2007" />
+      <AbsolutePoint location="2959,2753" />
+      <AbsolutePoint location="2607,2753" />
+      <AbsolutePoint location="2607,2971" />
+      <AbsolutePoint location="2419,2971" />
+      <AbsolutePoint location="2419,4074" />
+      <AbsolutePoint location="2450,4074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addDepartment.do,success,/departmentList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteBelongings.do,success,/belongingsList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toAddDicProfessionCategory.do,success,/admin/basemanage/DicProfessionCategory/addDicProfessionCategory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3261,1338" />
+      <AbsolutePoint location="3261,1965" />
+      <AbsolutePoint location="4023,1965" />
+      <AbsolutePoint location="4023,4114" />
+      <AbsolutePoint location="1510,4114" />
+      <AbsolutePoint location="1510,4150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_listBaseDataList.do,success,/admin/basemanage/BaseDataList/listBaseDataList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,723" />
+      <AbsolutePoint location="625,723" />
+      <AbsolutePoint location="625,2623" />
+      <AbsolutePoint location="2113,2623" />
+      <AbsolutePoint location="2113,2650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_listDicTechResourceSort.do,success,/admin/basemanage/DicTechResourceSort/listDicTechResourceSort.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/selectDepartmentList.do,success,/admin/basemanage/department/department_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="2914,2974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addArticleType.do,back,/admin/basemanage/articleType/articleType_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="2917,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toAddBaseDataList.do,success,/admin/basemanage/BaseDataList/addBaseDataList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,1163" />
+      <AbsolutePoint location="643,1163" />
+      <AbsolutePoint location="643,2879" />
+      <AbsolutePoint location="650,2879" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toAddDepartment.do,success,/admin/basemanage/department/department_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="1411,3274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toUpdateArticleType.do,success,/admin/basemanage/articleType/articleType_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="2920,1774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_showTCss.do,success,/admin/basemanage/TCss/showTCss.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1207,374" />
+      <AbsolutePoint location="1207,679" />
+      <AbsolutePoint location="1250,679" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_updatePhase.do,success,/baseManage_listPhase.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toUpdateBaseDataList.do,success,/admin/basemanage/BaseDataList/updateBaseDataList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2123,2174" />
+      <AbsolutePoint location="2123,2213" />
+      <AbsolutePoint location="1766,2213" />
+      <AbsolutePoint location="1766,2850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toAddRegion.do,success,/admin/basemanage/Region/addRegion.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_showDicExpertSort.do,success,/admin/basemanage/DicExpertSort/showDicExpertSort.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2750,94" />
+      <AbsolutePoint location="2671,94" />
+      <AbsolutePoint location="2671,389" />
+      <AbsolutePoint location="2911,389" />
+      <AbsolutePoint location="2911,1389" />
+      <AbsolutePoint location="2617,1389" />
+      <AbsolutePoint location="2617,1989" />
+      <AbsolutePoint location="1229,1989" />
+      <AbsolutePoint location="1229,3915" />
+      <AbsolutePoint location="2058,3915" />
+      <AbsolutePoint location="2058,4050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toUpdateRegion.do,success,/admin/basemanage/Region/updateRegion.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_showBaseData.do,success,/admin/basemanage/BaseData/showBaseData.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1367,1374" />
+      <AbsolutePoint location="1367,1671" />
+      <AbsolutePoint location="3,1671" />
+      <AbsolutePoint location="3,2579" />
+      <AbsolutePoint location="50,2579" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteDepartment.do,success,/departmentList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toUpdateDicExpertSort.do,success,/admin/basemanage/DicExpertSort/updateDicExpertSort.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,494" />
+      <AbsolutePoint location="2947,494" />
+      <AbsolutePoint location="2947,1441" />
+      <AbsolutePoint location="2587,1441" />
+      <AbsolutePoint location="2587,1957" />
+      <AbsolutePoint location="2434,1957" />
+      <AbsolutePoint location="2434,2785" />
+      <AbsolutePoint location="631,2785" />
+      <AbsolutePoint location="631,4019" />
+      <AbsolutePoint location="3265,4019" />
+      <AbsolutePoint location="3265,4050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_showBaseDataList.do,success,/admin/basemanage/BaseDataList/showBaseDataList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2397,912" />
+      <AbsolutePoint location="2434,912" />
+      <AbsolutePoint location="2434,1441" />
+      <AbsolutePoint location="1313,1441" />
+      <AbsolutePoint location="1313,2029" />
+      <AbsolutePoint location="1804,2029" />
+      <AbsolutePoint location="1804,2771" />
+      <AbsolutePoint location="596,2771" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_delDicTechResourceSort.do,success,/baseManage_listDicTechResourceSort.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toUpdateBaseData.do,success,/admin/basemanage/BaseData/updateBaseData.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,1925" />
+      <AbsolutePoint location="23,1925" />
+      <AbsolutePoint location="23,2823" />
+      <AbsolutePoint location="1500,2823" />
+      <AbsolutePoint location="1500,2708" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_delBaseDataList.do,success,/baseManage_listBaseDataList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,2523" />
+      <AbsolutePoint location="-15,2523" />
+      <AbsolutePoint location="-15,619" />
+      <AbsolutePoint location="2123,619" />
+      <AbsolutePoint location="2123,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_listDicProfessionCategory.do,success,/admin/basemanage/DicProfessionCategory/listDicProfessionCategory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3258,938" />
+      <AbsolutePoint location="3258,1023" />
+      <AbsolutePoint location="-75,1023" />
+      <AbsolutePoint location="-75,4174" />
+      <AbsolutePoint location="50,4174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_updateDicTechResourceSort.do,success,/baseManage_listDicTechResourceSort.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_addOperation.do,success,/baseManage_listOperation.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_listDicExpertSort.do,success,/admin/basemanage/DicExpertSort/listDicExpertSort.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,94" />
+      <AbsolutePoint location="-127,94" />
+      <AbsolutePoint location="-127,3885" />
+      <AbsolutePoint location="1458,3885" />
+      <AbsolutePoint location="1458,4050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_listPhase.do,success,/admin/basemanage/Phase/listPhase.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toAddOperation.do,success,/admin/basemanage/Operation/addOperation.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateArticleType.do,success,/articleTypeList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toUpdateTCss.do,success,/admin/basemanage/TCss/updateTCss.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="597,923" />
+      <AbsolutePoint location="1455,923" />
+      <AbsolutePoint location="1455,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toAddBaseData.do,success,/admin/basemanage/BaseData/addBaseData.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,1510" />
+      <AbsolutePoint location="1497,1510" />
+      <AbsolutePoint location="1497,1871" />
+      <AbsolutePoint location="1136,1871" />
+      <AbsolutePoint location="1136,2329" />
+      <AbsolutePoint location="569,2329" />
+      <AbsolutePoint location="569,2679" />
+      <AbsolutePoint location="650,2679" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_updateBaseData.do,success,/baseManage_listBaseData.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1523,2050" />
+      <AbsolutePoint location="1523,1465" />
+      <AbsolutePoint location="1212,1465" />
+      <AbsolutePoint location="1212,1123" />
+      <AbsolutePoint location="1782,1123" />
+      <AbsolutePoint location="1782,274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addArticleType.do,success,/articleTypeList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_addTCss.do,success,/baseManage_listTCss.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,712" />
+      <AbsolutePoint location="-75,712" />
+      <AbsolutePoint location="-75,312" />
+      <AbsolutePoint location="350,312" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_addRegion.do,failure,/error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="4008,3292" />
+      <AbsolutePoint location="4053,3292" />
+      <AbsolutePoint location="4053,2785" />
+      <AbsolutePoint location="3571,2785" />
+      <AbsolutePoint location="3571,2029" />
+      <AbsolutePoint location="3321,2029" />
+      <AbsolutePoint location="3321,1532" />
+      <AbsolutePoint location="2285,1532" />
+      <AbsolutePoint location="2285,1389" />
+      <AbsolutePoint location="703,1389" />
+      <AbsolutePoint location="703,1871" />
+      <AbsolutePoint location="69,1871" />
+      <AbsolutePoint location="69,1792" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_delOperation.do,success,/baseManage_listOperation.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_listTCss.do,success,/admin/basemanage/TCss/listTCss.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="582,374" />
+      <AbsolutePoint location="582,419" />
+      <AbsolutePoint location="1437,419" />
+      <AbsolutePoint location="1437,450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_addPhase.do,success,/baseManage_listPhase.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="failure;6,null,/error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="40,1634" />
+      <AbsolutePoint location="40,1734" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_delDicProfessionCategory.do,success,/baseManage_listDicProfessionCategory.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3258,2250" />
+      <AbsolutePoint location="3258,2153" />
+      <AbsolutePoint location="4113,2153" />
+      <AbsolutePoint location="4113,790" />
+      <AbsolutePoint location="3258,790" />
+      <AbsolutePoint location="3258,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toUpdateOperation.do,success,/admin/basemanage/Operation/updateOperation.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_delPhase.do,success,/baseManage_listPhase.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_addDicExpertSort.do,success,/baseManage_listDicExpertSort.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2112,450" />
+      <AbsolutePoint location="2112,124" />
+      <AbsolutePoint location="2150,124" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addBelongings.do,success,/belongingsList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_toAddDicTechResourceSort.do,success,/admin/basemanage/DicTechResourceSort/addDicTechResourceSort.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/baseManage_delTCss.do,success,/baseManage_listTCss.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1061,1250" />
+      <AbsolutePoint location="1061,389" />
+      <AbsolutePoint location="617,389" />
+      <AbsolutePoint location="617,374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

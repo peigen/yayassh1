@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+	<data-sources />
+	<form-beans>
+		<form-bean name="userForm" type="org.peigen.ssh.test.usertest.struts.form.UserForm" />
+
+	</form-beans>
+
+	<global-exceptions />
+	<global-forwards>
+			<forward name="failure" path="/error.jsp"></forward>
+		
+	</global-forwards>
+	<action-mappings>
+		<action name="userForm" path="/toAddUser" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy" parameter="method">
+			<forward name="success" path="/test/addUser.jsp" />
+		</action>
+		
+		<action name="userForm" path="/addUser" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy" parameter="method">
+			<forward name="success" path="/listUser.do?method=listUser" />
+		</action>
+		
+		<action name="userForm" path="/listUser" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy" parameter="method">
+			<forward name="success" path="/test/list.jsp" />
+		</action>
+		
+		<action name="userForm" path="/page-list" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy" parameter="method">
+			<forward name="success" path="/test/page-list.jsp" />
+		</action>
+		
+		<action name="userForm" path="/deleteUser" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy" parameter="method">
+			<forward name="success" path="/listUser.do?method=listUser" />
+		</action>
+		
+		<action name="userForm" path="/toUpdateUser" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy" parameter="method">
+			<forward name="success" path="/test/updateUser.jsp" />
+		</action>
+		
+		<action name="userForm" path="/updateUser" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy" parameter="method">
+			<forward name="success" path="/listUser.do?method=listUser" />
+		</action>
+		
+	</action-mappings>
+
+	<message-resources parameter="org.peigen.ssh.test.usertest.struts.ApplicationResources" />
+	
+</struts-config>
