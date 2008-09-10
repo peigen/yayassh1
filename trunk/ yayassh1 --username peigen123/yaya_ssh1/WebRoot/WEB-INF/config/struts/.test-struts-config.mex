@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/toAddUser.do" location="50,50" dimension="358,84" />
+  <StrutsActivity path="/addUser.do" location="650,50" dimension="358,84" />
+  <StrutsActivity path="/listUser.do" location="50,950" dimension="358,84" />
+  <StrutsActivity path="/page-list.do" location="650,750" dimension="358,84" />
+  <StrutsActivity path="/deleteUser.do" location="650,250" dimension="358,84" />
+  <StrutsActivity path="/toUpdateUser.do" location="50,450" dimension="358,84" />
+  <StrutsActivity path="/updateUser.do" location="650,450" dimension="358,84" />
+  <StrutsActivity path="failure;6" location="50,650" dimension="106,72" />
+  <StrutsActivity path="/test/addUser.jsp" location="350,650" dimension="142,48" />
+  <StrutsActivity path="/test/list.jsp" location="650,650" dimension="124,48" />
+  <StrutsActivity path="/test/page-list.jsp" location="350,850" dimension="154,48" />
+  <StrutsActivity path="/test/updateUser.jsp" location="950,650" dimension="160,48" />
+  <StrutsActivity path="/error.jsp" location="350,750" dimension="100,48" />
+  <StrutsActivity path="/showUser" location="50,250" dimension="358,84" />
+  <StrutsActivity path="/test.jsp" location="50,850" dimension="94,48" />
+  <StrutsTransition id="/listUser.do,success,/test/list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="408,992" />
+      <AbsolutePoint location="579,992" />
+      <AbsolutePoint location="579,674" />
+      <AbsolutePoint location="650,674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toUpdateUser.do,success,/test/updateUser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="229,534" />
+      <AbsolutePoint location="229,579" />
+      <AbsolutePoint location="1030,579" />
+      <AbsolutePoint location="1030,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toAddUser.do,success,/test/addUser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="408,92" />
+      <AbsolutePoint location="423,92" />
+      <AbsolutePoint location="423,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateUser.do,success,/listUser.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="829,534" />
+      <AbsolutePoint location="829,609" />
+      <AbsolutePoint location="229,609" />
+      <AbsolutePoint location="229,950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/page-list.do,success,/test/page-list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="829,834" />
+      <AbsolutePoint location="829,874" />
+      <AbsolutePoint location="504,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addUser.do,success,/listUser.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,92" />
+      <AbsolutePoint location="519,92" />
+      <AbsolutePoint location="519,962" />
+      <AbsolutePoint location="408,962" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="failure;6,null,/error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="103,722" />
+      <AbsolutePoint location="103,774" />
+      <AbsolutePoint location="350,774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteUser.do,success,/listUser.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,292" />
+      <AbsolutePoint location="609,292" />
+      <AbsolutePoint location="609,1022" />
+      <AbsolutePoint location="408,1022" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

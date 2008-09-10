@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="failure;6" location="0,738" dimension="106,72" />
+  <StrutsActivity path="/admin/business/business_list.jsp" location="976,368" dimension="238,48" />
+  <StrutsActivity path="/admin/business/business_add.jsp" location="234,202" dimension="232,48" />
+  <StrutsActivity path="/admin/business/business_detail.jsp" location="54,645" dimension="250,48" />
+  <StrutsActivity path="/admin/business/business_edit.jsp" location="463,645" dimension="238,48" />
+  <StrutsActivity path="/error.jsp" location="3,910" dimension="100,48" />
+  <StrutsActivity path="/achievementList.do" />
+  <StrutsActivity path="/toAddAchievement.do" />
+  <StrutsActivity path="/addAchievement.do" />
+  <StrutsActivity path="/showAchievement.do" />
+  <StrutsActivity path="/toUpdateAchievement.do" />
+  <StrutsActivity path="/updateAchievement.do" />
+  <StrutsActivity path="/deleteAchievement.do" />
+  <StrutsActivity path="/admin/achievement/achievement_list.jsp" />
+  <StrutsActivity path="/admin/achievement/achievement_add.jsp" />
+  <StrutsActivity path="/admin/achievement/achievement_detail.jsp" />
+  <StrutsActivity path="/admin/achievement/achievement_edit.jsp" />
+  <StrutsTransition id="/toUpdateBusiness.do,success,/admin/business/business_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="582,545" />
+      <AbsolutePoint location="582,645" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addAchievement.do,back,/admin/achievement/achievement_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toAddAchievement.do,success,/admin/achievement/achievement_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addBusiness.do,back,/admin/business/business_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="547,84" />
+      <AbsolutePoint location="547,134" />
+      <AbsolutePoint location="408,134" />
+      <AbsolutePoint location="408,202" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showBusiness.do,success,/admin/business/business_detail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="179,545" />
+      <AbsolutePoint location="179,645" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/businessList.do,success,/admin/business/business_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1095,268" />
+      <AbsolutePoint location="1095,368" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/achievementList.do,success,/admin/achievement/achievement_list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toUpdateAchievement.do,success,/admin/achievement/achievement_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteBusiness.do,success,/businessList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1553,84" />
+      <AbsolutePoint location="1553,134" />
+      <AbsolutePoint location="1214,134" />
+      <AbsolutePoint location="1214,184" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/toAddBusiness.do,success,/admin/business/business_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="179,84" />
+      <AbsolutePoint location="179,134" />
+      <AbsolutePoint location="292,134" />
+      <AbsolutePoint location="292,202" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="failure;6,null,/error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="53,810" />
+      <AbsolutePoint location="53,910" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showAchievement.do,success,/admin/achievement/achievement_detail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/deleteAchievement.do,success,/achievementList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addBusiness.do,success,/businessList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="726,84" />
+      <AbsolutePoint location="726,134" />
+      <AbsolutePoint location="975,134" />
+      <AbsolutePoint location="975,184" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/addAchievement.do,success,/achievementList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateBusiness.do,success,/businessList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1095,84" />
+      <AbsolutePoint location="1095,184" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/updateAchievement.do,success,/achievementList.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

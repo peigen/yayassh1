@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/columnManage_listCatalog.do" location="350,250" dimension="547,124" />
+  <StrutsActivity path="/columnManage_showCatalog.do" location="950,250" dimension="547,124" />
+  <StrutsActivity path="/columnManage_toAddCatalog.do" location="50,450" dimension="547,124" />
+  <StrutsActivity path="/columnManage_addCatalog.do" location="50,650" dimension="547,124" />
+  <StrutsActivity path="/columnManage_toUpdateCatalog.do" location="50,850" dimension="547,124" />
+  <StrutsActivity path="/columnManage_updateCatalog.do" location="50,1250" dimension="547,124" />
+  <StrutsActivity path="/columnManage_delCatalog.do" location="650,1250" dimension="547,124" />
+  <StrutsActivity path="failure;6" location="0,1532" dimension="140,102" />
+  <StrutsActivity path="/admin/column/listCatalog.jsp" location="650,650" dimension="308,58" />
+  <StrutsActivity path="/admin/column/showCatalog.jsp" location="650,950" dimension="327,58" />
+  <StrutsActivity path="/admin/column/addCatalog.jsp" location="50,1950" dimension="315,58" />
+  <StrutsActivity path="/admin/column/updateCatalog.jsp" location="650,1950" dimension="344,58" />
+  <StrutsActivity path="/error.jsp" location="8,1734" dimension="123,58" />
+  <StrutsActivity path="/admin/index.jsp" location="33,1102" dimension="191,58" />
+  <StrutsActivity path="/admin/main.jsp" location="324,1102" dimension="187,58" />
+  <StrutsActivity path="/admin/user/showUser.jsp" location="730,1102" dimension="270,58" />
+  <StrutsActivity path="/admin/user/auditUser.jsp" location="648,775" dimension="270,58" />
+  <StrutsActivity path="/admin/user/listUser.jsp" location="795,448" dimension="251,58" />
+  <StrutsActivity path="/admin/user/addUser.jsp" location="144,1429" dimension="258,58" />
+  <StrutsActivity path="/admin/user/updateUser.jsp" location="722,1429" dimension="287,58" />
+  <StrutsActivity path="/admin/user/listCatalog.jsp" location="350,1550" dimension="281,58" />
+  <StrutsActivity path="/admin/user/showCatalog.jsp" location="950,1550" dimension="300,58" />
+  <StrutsActivity path="/admin/user/addCatalog.jsp" location="350,1750" dimension="288,58" />
+  <StrutsActivity path="/admin/user/updateCatalog.jsp" location="950,1750" dimension="317,58" />
+  <StrutsActivity path="/columnManage_radioSubmit.do" location="1250,450" dimension="547,124" />
+  <StrutsTransition id="/columnManage_radioSubmit.do,success,/admin/column/addCatalog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1523,512" />
+      <AbsolutePoint location="207,1979" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/columnManage_delCatalog.do,success,/columnManage_listCatalog.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1061,1250" />
+      <AbsolutePoint location="1061,419" />
+      <AbsolutePoint location="582,419" />
+      <AbsolutePoint location="582,374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/columnManage_toAddCatalog.do,success,/admin/column/addCatalog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="323,512" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/columnManage_toUpdateCatalog.do,success,/admin/column/updateCatalog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="323,912" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/columnManage_updateCatalog.do,success,/columnManage_listCatalog.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1312" />
+      <AbsolutePoint location="-45,1312" />
+      <AbsolutePoint location="-45,312" />
+      <AbsolutePoint location="350,312" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/columnManage_showCatalog.do,success,/admin/column/showCatalog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1223,312" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/columnManage_listCatalog.do,success,/admin/column/listCatalog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="623,312" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/columnManage_radioSubmit.do,success,/admin/column/listCatalog.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,521" />
+      <AbsolutePoint location="810,521" />
+      <AbsolutePoint location="810,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/columnManage_addCatalog.do,success,/columnManage_listCatalog.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="597,712" />
+      <AbsolutePoint location="663,712" />
+      <AbsolutePoint location="663,374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="failure;6,null,/error.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="70,1634" />
+      <AbsolutePoint location="70,1734" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

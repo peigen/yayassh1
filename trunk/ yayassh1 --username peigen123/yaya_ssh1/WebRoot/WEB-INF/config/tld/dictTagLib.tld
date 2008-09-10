@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- author:peigen -->
+<!-- email:peigen_peigen@163.com -->
+<taglib>
+	<tlib-version>1.1</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<short-name>dictTag-EL</short-name>
+	<uri>http://peigen.org/dictTag</uri>
+	<display-name>Dict *: Tag Library (EL)</display-name>
+	<description>
+		用于显示字典类的标签库
+	</description>
+	
+	<tag>
+		<name>dictTag</name>
+		<tag-class>com.sync.sninfo.commons.label.DictTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>outPutType</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>typeName</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>orderName</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>selectSize</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>existValue</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+</taglib>
