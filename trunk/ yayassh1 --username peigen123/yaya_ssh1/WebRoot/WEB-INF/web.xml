@@ -2,7 +2,22 @@
 <web-app xmlns="http://java.sun.com/xml/ns/javaee"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
-	<display-name>快速开发框架</display-name>
+	<display-name>快速开发框架1</display-name>
+	<description>
+		Struts1.2+spring2.5+hibernate3.3
+		
+		亮点:
+		
+		1,前台展示使用displaytag标签
+		
+		2,用spring集中管理
+		
+		3,使用hibernate annotation实现'0'配置,主要用于实体的注解
+		
+		4,使用jsvalidate进行前台校验
+		
+		5,使用pjl进行传输压缩 
+	</description>
 	<!-- Spring配置 -->
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
